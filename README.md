@@ -1,2 +1,4 @@
-# bioSite
-Biography site for Jon White Jr
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Professor John Woods
+* Andrew White
