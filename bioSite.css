@@ -1,3 +1,11 @@
+
+html, body {
+    padding:0; 
+    margin:0; 
+    height:100%;
+    background-color: #d9d9d9;
+}
+
 body {
     font-family: "PT Serif", "Ms Madi";
 }
@@ -12,6 +20,10 @@ header {
 h1 {
     font-weight: 400;
     font-size: 48px;
+}
+
+h2 {
+    padding: 10px;
 }
 
 #navbar {
@@ -42,8 +54,19 @@ h1 {
     margin: auto;
 }
 
-#about-container {
+#slideshow-container img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio-container {
     background-color: #d9d9d9;
+}
+
+#bio-container div {
+    padding: 10px;
 }
 
 #bio-portrait {
@@ -56,9 +79,51 @@ h1 {
     background-color: #d9d9d9;
 }
 
+#hobby-container img {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hobby-container center {
+    padding: 10px;
+}
+
+a {
+    color: #0F261E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
 footer {
     background-color: #0F261E;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
+}
+
+footer p {
+    color: #d9d9d9;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
