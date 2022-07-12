@@ -24,6 +24,7 @@ h1 {
 
 h2 {
     padding: 10px;
+    padding-left: 40px;
 }
 
 #navbar {
@@ -49,16 +50,25 @@ h2 {
 
 #header-photo img {
     background-color: #0F261E;
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#slideshow-container img {
+#figure-container {
     max-width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#figure-container figcaption {
+    text-align: center;
+    font-weight: 600;
+}
+
+.myImage {
+    border: 2px solid #0F261E;
 }
 
 #bio-container {
@@ -66,28 +76,28 @@ h2 {
 }
 
 #bio-container div {
-    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#bio-container div p {
+    text-indent: 40px;
 }
 
 #bio-portrait {
     float: right;
     height: 20%;
     width: 20%;
+    padding: 20px;
 }
 
 #hobby-container {
-    background-color: #d9d9d9;
-}
-
-#hobby-container img {
-    max-width: 90%;
+    max-width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#hobby-container center {
-    padding: 10px;
+    text-align: center;
+    font-weight: 600;
 }
 
 a {
@@ -101,7 +111,7 @@ a:hover {
 }
 
 a:visited {
-    color: white;
+    color: #22594F;
 }
 
 footer {
@@ -126,4 +136,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
 }
