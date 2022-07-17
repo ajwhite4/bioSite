@@ -48,27 +48,47 @@ h2 {
     
 }
 
-#header-photo img {
-    background-color: #0F261E;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+#header-photo {
+    background-color: #0d0d0d;
 }
 
-#figure-container {
-    max-width: 50%;
+#header-photo img {
+    width: 100%;
+    max-width: 1600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#figure-container figcaption {
+#center {
+    text-align: center;
+}
+
+#figure-container {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
     text-align: center;
     font-weight: 600;
 }
 
-.myImage {
+figure {
     border: 2px solid #0F261E;
+    display: block;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    align-items: center;
+}
+
+#grid figure img {
+    width: 100%;
+    height: auto;
 }
 
 #bio-container {
@@ -92,12 +112,9 @@ h2 {
 }
 
 #hobby-container {
-    max-width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-weight: 600;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    align-items: center;
 }
 
 a {
