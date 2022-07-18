@@ -76,8 +76,12 @@ figcaption {
 }
 
 figure {
-    border: 2px solid #0F261E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
     display: block;
+}
+
+.myImage img {
+    width: 100%;
 }
 
 #grid {
@@ -93,6 +97,8 @@ figure {
 
 #bio-container {
     background-color: #d9d9d9;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #bio-container div {
@@ -106,15 +112,16 @@ figure {
 
 #bio-portrait {
     float: right;
-    height: 20%;
-    width: 20%;
-    padding: 20px;
+    height: 25%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    max-height: 400px;
 }
 
 #hobby-container {
     display: grid;
     grid-template-columns: 33.333% 33.333% 33.333%;
-    align-items: center;
+    align-items: start
 }
 
 a {
